@@ -8,6 +8,8 @@ import Login from "../components/Login";
 import Register from "../components/Register";
 import PassengerDashboard from "../components/PassengerDashboard";
 import JourneyList from "../components/JourneyList";
+import Topup from "../components/Topup";
+//Topup
 
 function AppRouter() {
     return (
@@ -18,6 +20,7 @@ function AppRouter() {
             <Route path="/dashboard" component={Dashboard} exact />
             <Route path="/my-dashboard" component={PassengerDashboard} />
             <Route path="/journey-list" component={JourneyList} />
+            <Route path="/Topup" component={Topup} />
 
             {/* <PublicRoute restricted={true} component={Login} path="/" exact />
                 <PrivateRoute component={Home} path="/home" exact /> */}
