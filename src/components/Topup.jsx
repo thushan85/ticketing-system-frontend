@@ -1,7 +1,7 @@
 
 import React from "react";
 
-const Register = () => {
+const Topup = () => {
 
     return (
 
@@ -49,29 +49,5 @@ const Register = () => {
     )
 }
 
-export default Register;
+export default Topup;
 
-
-// import React, {Component} from "react";
-// import {VisaCreditCard as VisaCard} from "react-fancy-visa-card";
-
-
-// class Topup extends Component {
-
-//     pay = (e, data) => {
-//         console.log(data);
-
-//     };
-
-//     render() {
-//         return (
-//             <div className="Topup">
-            
-//                 <VisaCard onSubmit={this.pay} />
-
-//             </div>
-//         );
-//     }
-// }
-
-// export default Topup;
